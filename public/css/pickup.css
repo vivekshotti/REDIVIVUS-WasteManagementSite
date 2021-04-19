@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: #E7EAEE;
+  color: #013F59;
+}
+
+.lobox {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  top: 2%;
+  left: 5%;
+  z-index: 10;
+}
+
+@media screen and (max-width:768px) {
+  .lobox {
+    display: none;
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 35px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+h6 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  margin: 15px auto 0px auto;
+  font-size: 16px;
+  width: 80%;
+}
+
+.schedule-pickup-form {
+  margin: 35px auto 0px auto;
+  width: 80%;
+}
+
+.schedule-pickup-form label {
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.schedule-pickup-form input {
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.schedule-pickup-form input:focus {
+  border-bottom: 2px solid #013F59;
+}
+
+.schedule-pickup-form textarea {
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 3px;
+  width: 100%;
+  font-family: inter;
+  font-weight: normal;
+}
+
+.schedule-pickup-form textarea:focus {
+  border-bottom: 2px solid #013F59;
+}
+
+.schedule-pickup-form button {
+  font-size: 19px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: none;
+  padding: 12px 20px;
+  background-color: #013F59;
+  color: #E7EAEE;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border-bottom: 3px solid #013F59;
+}
+
+.schedule-pickup-form button:hover {
+  background-color: #E7EAEE;
+  border-bottom: 3px solid #013F59;
+  border-top: 3px solid #013F59;
+  border-left: 3px solid #013F59;
+  border-right: 3px solid #013F59;
+  color: #013F59;
+}
+
+@media all and (min-width: 1000px) {
+  .schedule-pickup-form {
+    width: 40%;
+  }
+}
+
+@media all and (min-width: 1080px) {
+  .schedule-pickup-form {
+    width: 30%;
+  }
+}

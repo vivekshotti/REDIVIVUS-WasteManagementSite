@@ -1,0 +1,166 @@
+footer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #013F59;
+}
+
+.footerup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footerdown {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoleft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoleft span {
+  font-size: 0.8rem;
+  color: #E7EAEE;
+  font-weight: bold;
+}
+
+.flogo {
+  width: 50px;
+  border: 4px solid #E7EAEE;
+  padding: 10px;
+  margin: 10px;
+}
+
+.finfo {
+  width: 25%;
+  color: #E7EAEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  text-align: left;
+}
+
+.finfo h3 {
+  font-size: 1rem;
+}
+
+.finfo h3:after {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0;
+  /* This will center the border. */
+  width: 30%;
+  /* Change this to whatever width you want. */
+  padding-top: 2px;
+  /* This creates some space between the element and the border. */
+  border-bottom: 3px solid #FFC906;
+}
+
+.reach-us {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.reach-us p {
+  font-size: 0.5rem;
+  padding: 5px;
+}
+
+.reach-us img {
+  vertical-align: text-bottom;
+}
+
+.quicklinks {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quicklinks li {
+  text-decoration: none;
+  color: #E7EAEE;
+  font-size: 0.7rem;
+  list-style: none;
+  text-align: left;
+}
+
+.quicklinks h3 {
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.quicklinks h3:after {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0;
+  /* This will center the border. */
+  width: 100%;
+  /* Change this to whatever width you want. */
+  padding-top: 2px;
+  /* This creates some space between the element and the border. */
+  border-bottom: 3px solid #F75469;
+}
+
+.footerdown {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #E7EAEE;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width:768px) {
+  .logoleft {
+    display: none;
+  }
+
+  .finfo {
+    width: 60%;
+    padding-left: 5%;
+  }
+
+  .finfo h3 {
+    font-size: 1rem;
+  }
+
+  .finfo p {
+    font-size: 0.7rem;
+  }
+
+  .quicklinks {
+    width: 40%;
+  }
+
+  .quicklinks h3 {
+    font-size: 1rem;
+  }
+
+  .quicklinks li {
+    font-size: 0.7rem;
+  }
+}

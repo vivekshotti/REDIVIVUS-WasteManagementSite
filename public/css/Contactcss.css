@@ -1,0 +1,237 @@
+/* main section */
+#four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: -x hidden;
+}
+
+/* contact us font */
+#four h1 {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  font-size: 6rem;
+  font-weight: 900;
+  color: rgba(237, 240, 245, 0.76);
+  font-family: 'Poppins', sans-serif;
+  -webkit-transform: rotate(-90deg) translateY(150px) translateX(-250px);
+  -moz-transform: rotate(-90deg) translateY(150px) translateX(-250px);
+  -o-transform: rotate(-90deg) translateY(150px) translateX(-250px);
+}
+
+/* main div for web view */
+.contact-us {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+  height: 70%;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10%;
+}
+
+/* form input */
+.cnt-bx {
+  width: 80%;
+  height: 50px;
+  position: relative;
+  margin: 0 0 2% 3%;
+}
+
+.cnt-bx:first-child {
+  margin-top: 2%;
+}
+
+.cnt-bx:last-child {
+  margin-bottom: 0;
+}
+
+.cnt-bx input {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid #013F59;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  color: #013F59;
+  padding: 1%;
+  background: transparent;
+}
+
+.cnt-bx textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid #013F59;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  color: #013F59;
+  padding: 1%;
+  background: transparent;
+  resize: none;
+}
+
+.cnt-bx span {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  pointer-events: none;
+  font-weight: 500;
+  font-size: 0.8rem;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.cnt-bx input:focus~span,
+.cnt-bx input:valid~span {
+  transform: translateX(1%) translateY(-115%);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.cnt-bx textarea:focus~span,
+.cnt-bx textarea:valid~span {
+  transform: translateX(1%) translateY(-115%);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* submit button */
+.cnt-btn {
+  width: 200px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  color: #E7EAEE;
+  background-color: #013F59;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 25% 70% 5% 3%;
+  border: none;
+}
+
+.cnt-btn:hover {
+  background-color: #E7EAEE;
+  color: #013F59;
+  border: 2px solid #013F59;
+}
+
+/* contact image */
+.cnt-img {
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 15%;
+  right: -25%;
+  border: 3px solid black;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+/* contact us mobile view hide */
+.contact-us-mob {
+  display: none;
+}
+
+/* Yash Dave work*/
+@media screen and (max-width: 800px) {
+
+  /*web view hide*/
+  .contact-us {
+    display: none;
+  }
+
+  #four {
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #four h1 {
+    font-size: 2rem;
+    position: relative;
+    transform: none;
+    z-index: 1;
+  }
+
+  /*mobile view */
+  .contact-us-mob {
+    display: block;
+  }
+
+  /* contact image */
+  .cnt-img-mob {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    position: relative;
+    border: 3px solid black;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+  }
+
+  /* text input and textarea in mobile view */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  /* submit button */
+  .cnt-mob-btn {
+    width: 100%;
+    background: #2196F3;
+    color: white;
+    border: 2px solid white;
+    background-color: #103f59;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  /* contact form */
+  .contact-us-form {
+    border-radius: 5px;
+    background-color: #103f59;
+    padding: 20px;
+  }
+
+  label {
+    align-self: left;
+    color: white;
+    font-weight: 300;
+  }
+}
+
+/* ---------End----------- */
