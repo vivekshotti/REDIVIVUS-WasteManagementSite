@@ -43,12 +43,10 @@ On the spot, the waste is segregated by our well-informed and trained representa
 * CSS 
 * JavaScript
 
-##Tools
+-Tools
 * Firebase
 * SwiperJS
 * Figma
-
-<i>...(to be added)</i>
 
 ## Contributors
 |  Profile  |  Name  | GithubID | EmailID  | LinkedIN  |
