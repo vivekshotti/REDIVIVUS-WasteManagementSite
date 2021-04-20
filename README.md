@@ -75,3 +75,9 @@ The website is up and running. One can check the live deployment [here](https://
 
 ## ➤ Dev Team:
 <img src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/Screenshot-dev.png">
+
+<p align="center">
+    <i>2021© Redivivus. <br/>
+    All Rights Reserved. <br/>
+    (This website was created by the Dev Team for Miniproject 20-21 for SE-Computer Department, Universal College of Engineering)</i>
+</p>
