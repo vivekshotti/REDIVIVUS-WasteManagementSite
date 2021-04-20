@@ -58,20 +58,7 @@ On the spot, the waste is segregated by our well-informed and trained representa
 ## Successfull Deployment 
 The website is up and running. One can check the live deployment [here](https://redivivuspickupguy.web.app/).
 
-### ➤ Homepage:
-<img align="center" src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/homepage.JPG"> 
-
-### ➤ Our Services Page:
-<img align="center" src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/services.JPG"> 
-
-### ➤ About Us Page:
-<img align="center" src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/about.JPG"> 
-
-### ➤ Contact Us Page:
-<img align="center" src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/contact.JPG"> 
-
-### ➤ Developer's section:
-<img align="center" src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/developers.JPG"> 
+https://user-images.githubusercontent.com/59518168/115352569-1e191b80-a1d5-11eb-87b2-aab8636b64da.mp4
 
 
 
