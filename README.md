@@ -58,7 +58,4 @@ On the spot, the waste is segregated by our well-informed and trained representa
 ## Successfull Deployment 
 The website is up and running. One can check the live deployment [here](https://redivivuspickupguy.web.app/).
 
-https://user-images.githubusercontent.com/59518168/115352569-1e191b80-a1d5-11eb-87b2-aab8636b64da.mp4
-
-
 
