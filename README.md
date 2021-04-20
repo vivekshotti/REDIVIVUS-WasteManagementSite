@@ -61,5 +61,17 @@ The website is up and running. One can check the live deployment [here](https://
 
 ![gif](https://github.com/Vivek-Hotti/REDIVIVUS/blob/e6cf28790225e9fb3318811895d2a339e9e59217/images&visuals/redvivusgif.gif)
 
+## ➤ Homepage:
+<img src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/homepage.JPG">
 
+## ➤ Our Services:
+<img src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/services.JPG">
 
+## ➤ About Us:
+<img src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/about.JPG">
+
+## ➤ Contact:
+<img src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/contact.JPG">
+
+## ➤ Dev Team:
+<img src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/Screenshot-dev.png">
