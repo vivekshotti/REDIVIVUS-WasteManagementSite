@@ -1,3 +1,5 @@
+<img align="center" width="100%" src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/Github Banner.png"> 
+
 # REDIVIVUS
 An end-to-end recyclable waste management website.<br/>
 Successfully Deployed using firebase hosting. View the deployment [here](https://redivivuspickupguy.web.app/).<br/>
