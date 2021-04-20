@@ -42,8 +42,11 @@ On the spot, the waste is segregated by our well-informed and trained representa
 * HTML
 * CSS 
 * JavaScript
+
+##Tools
 * Firebase
 * SwiperJS
+* Figma
 
 <i>...(to be added)</i>
 
@@ -57,5 +60,8 @@ On the spot, the waste is segregated by our well-informed and trained representa
 
 ## Successfull Deployment 
 The website is up and running. One can check the live deployment [here](https://redivivuspickupguy.web.app/).
+
+![gif](https://github.com/Vivek-Hotti/REDIVIVUS/blob/e6cf28790225e9fb3318811895d2a339e9e59217/images&visuals/redvivusgif.gif)
+
 
 
