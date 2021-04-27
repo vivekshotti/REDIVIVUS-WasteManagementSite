@@ -55,8 +55,8 @@ On the spot, the waste is segregated by our well-informed and trained representa
 | <img src="https://github.com/Vivek-Hotti/REDIVIVUS/blob/main/images%26visuals/yashdave.png" width="160">  | Yash Dave  | [@Yash-Dave](https://github.com/Yash-Dave)  | daveyashrakesh@gmail.com | [yashdave](https://www.linkedin.com/in/yash-dave-408976199/?trk=people-guest_people_search-card&originalSubdomain=in)  |
 | <img src="https://instagram.fbom16-1.fna.fbcdn.net/v/t51.2885-19/s320x320/85173101_2601390980148087_2807371082011508736_n.jpg?tp=1&_nc_ht=instagram.fbom16-1.fna.fbcdn.net&_nc_ohc=lo8IxWElCswAX-HjihZ&edm=ABfd0MgBAAAA&ccb=7-4&oh=a5856f844ac1e8ce7a8881702694c13e&oe=60A4307A&_nc_sid=7bff83" width="160">  | Rohan Makwana  | [@RM6501](https://github.com/RM6501)  | makwanarohan0@gmail.com  | [rohanmakwana](https://www.linkedin.com/in/rohan-makwana-2835bb1a7/)  |
 
-## Credits
--Special Thanks to Dhruvil Shah [@DhruvilShah22](https://github.com/DhruvilShah22) for helping us embed Google Maps on our website.<br/>
+## Special Mention
+Thanks to [@DhruvilShah22](https://github.com/DhruvilShah22) for helping us embed Google Maps in the Drop-off Locations section on our website.<br/>
 
 ## Successfull Deployment 
 The website is up and running. One can check the live deployment [here](https://redivivuspickupguy.web.app/).<br/>
